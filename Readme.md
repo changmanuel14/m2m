@@ -1,0 +1,1 @@
+El presente proyecto consta de un modelo M:N en Django

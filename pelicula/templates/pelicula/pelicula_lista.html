@@ -1,0 +1,14 @@
+{% extends 'pelicula/base.html' %}
+
+    {% block content %}
+        <h1>Peliculas</h1>
+        {% for pelicula in peliculas %}
+        <div class="post">
+            <div class="date">
+                <h2>{{ pelicula.nombre }}</h2>
+            </div>
+            <h3>{{ pelicula.anio }}</h3>
+        </div>
+    {% endfor %}
+
+    {% endblock %}
